@@ -30,6 +30,7 @@ DATABASES = {
 
 INSTALLED_APPS += (
     'debug_toolbar',
+    'django_jenkins',
   
 )
 
@@ -37,7 +38,7 @@ INSTALLED_APPS += (
 # Miscellaneous local settings
 #==============================================================================
 
-TEST_RUNNER = 'discover_runner.DiscoverRunner'
+#TEST_RUNNER = 'discover_runner.DiscoverRunner'
 
 #Debug toolbar settings
 #----------------------
@@ -64,3 +65,15 @@ DEBUG_TOOLBAR_CONFIG = {
 def show_toolbar(request):
     return True
 SHOW_TOOLBAR_CALLBACK = show_toolbar
+
+JENKINS_TASKS = (
+    'django_jenkins.tasks.with_coverage',
+    'django_jenkins.tasks.django_tests',   # select one django or
+    #'django_jenkins.tasks.dir_tests'      # directory tests discovery
+    'django_jenkins.tasks.run_pep8',
+    'django_jenkins.tasks.run_pyflakes',
+    'django_jenkins.tasks.run_jslint',
+    'django_jenkins.tasks.run_csslint',    
+    'django_jenkins.tasks.run_sloccount',    
+    'django_jenkins.tasks.lettuce_tests',
+)
