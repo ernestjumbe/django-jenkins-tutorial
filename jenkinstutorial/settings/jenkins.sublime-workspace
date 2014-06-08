@@ -1,0 +1,549 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fl",
+				"fl-r	float: right;"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bot",
+				"border-top"
+			],
+			[
+				"starkers",
+				"Starkers"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"no",
+				"nowrap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "base.py",
+			"settings":
+			{
+				"buffer_size": 3094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "local.py",
+			"settings":
+			{
+				"buffer_size": 2055,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"grunt",
+				"Preferences: Grunt - Settings – User"
+			],
+			[
+				"gr",
+				"Grunt"
+			],
+			[
+				"bo",
+				"Bower: Install"
+			],
+			[
+				"bow",
+				"Bower: Install"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/njumbe/Documents/Django/django-jenkins-tutorial"
+	],
+	"file_history":
+	[
+		"/Users/njumbe/Documents/Django/django-jenkins-tutorial/jenkinstutorial/settings/dev.py",
+		"/Users/njumbe/Documents/Django/django-jenkins-tutorial/jenkinstutorial/settings/local.py",
+		"/Users/njumbe/Documents/Django/django-jenkins-tutorial/jenkinstutorial/settings/prod.py",
+		"/Users/njumbe/Documents/Django/django-jenkins-tutorial/jenkinstutorial/settings/base.py",
+		"/Users/njumbe/Documents/Django/django-jenkins-tutorial/jenkinstutorial/settings/__init__.py",
+		"/Users/njumbe/Documents/Django/django-jenkins-tutorial/setup.py",
+		"/Users/njumbe/dev/generator-blog/app/index.js",
+		"/Users/njumbe/dev/generator-blog/node_modules/yeoman-generator/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/lib/Number/is-nan.js",
+		"/Users/njumbe/Library/Application Support/Sublime Text 3/Packages/User/SublimeGrunt.sublime-settings",
+		"/Users/njumbe/Documents/Dropbox/shelby/shelby-site/less/mixins.less",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/parts/shared/header_1.php",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/js/site.js",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/single.php",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/search.php",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/parts/shared/html-header.php",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/parts/shared/header.php",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/parts/shared/sidebar.php",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/addr_index.php",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/index.php",
+		"/Users/njumbe/Documents/www/addr/wp-content/themes/starkers/content.php",
+		"/Users/njumbe/Documents/Django/shelby/shelby/settings/dev.py",
+		"/Users/njumbe/Documents/Django/shelby/requirements/dev.pip",
+		"/Users/njumbe/Documents/Dropbox/bootstrap/initializr-bootstrap/index.html",
+		"/Users/njumbe/Documents/Dropbox/shelby/shelby-site/js/bootstrap-dropdown.js",
+		"/Users/njumbe/Documents/Dropbox/addr/addr-site/css/style.css",
+		"/Users/njumbe/Documents/Dropbox/addr/addr-site/less/accordion.less",
+		"/Users/njumbe/Documents/Dropbox/addr/addr-site/less/media.less",
+		"/Users/njumbe/.osx.sh",
+		"/Users/njumbe/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/njumbe/Documents/Dropbox/shelby/shelby-site/css/style.css",
+		"/Users/njumbe/Documents/Dropbox/shelby/shelby-site/less/tests/navbar-static-top.html",
+		"/Users/njumbe/Documents/Dropbox/shelby/shelby-site/less/layouts.less",
+		"/Users/njumbe/Documents/Dropbox/shelby/shelby-site/less/accordion.less",
+		"/Users/njumbe/Documents/Dropbox/shelby/shelby-site/js/bootstrap-affix.js",
+		"/Users/njumbe/Documents/Dropbox/shelby/shelby-site/base.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "base.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								917,
+								917
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 24.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "local.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2055,
+								2055
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 371.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "jenkins.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"loc",
+				"jenkinstutorial/settings/local.py"
+			],
+			[
+				"set",
+				"jenkinstutorial/settings/base.py"
+			],
+			[
+				"in",
+				"app/index.js"
+			],
+			[
+				"ind",
+				"app/index.js"
+			],
+			[
+				"mixi",
+				"less/mixins.less"
+			],
+			[
+				"sty",
+				"less/style.less"
+			],
+			[
+				"st",
+				"less/style.less"
+			],
+			[
+				"vi",
+				"video.html"
+			],
+			[
+				"video",
+				"video.html"
+			],
+			[
+				"ba",
+				"base.html"
+			],
+			[
+				"he",
+				"parts/shared/html-header.php"
+			],
+			[
+				"si",
+				"parts/shared/sidebar.php"
+			],
+			[
+				"foo",
+				"parts/shared/footer.php"
+			],
+			[
+				"",
+				"parts/shared/header.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"fo",
+				"parts/shared/footer.php"
+			],
+			[
+				"hed",
+				"parts/shared/header.php"
+			],
+			[
+				"htm",
+				"parts/shared/html-footer.php"
+			],
+			[
+				"ur",
+				"project_name/urls.py"
+			],
+			[
+				"lo",
+				"shelby/settings/local.py"
+			],
+			[
+				"d",
+				"shelby/settings/dev.py"
+			],
+			[
+				"mix",
+				"less/mixins.less"
+			],
+			[
+				"base",
+				"base.html"
+			],
+			[
+				"ine",
+				"index.html"
+			],
+			[
+				"bas",
+				"base.html"
+			],
+			[
+				"s",
+				"less/style.less"
+			],
+			[
+				"ut",
+				"less/utilities.less"
+			],
+			[
+				"b",
+				"base.html"
+			],
+			[
+				"add",
+				"less/addrsocialsprite.less"
+			],
+			[
+				"navb",
+				"less/navbar.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 124.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

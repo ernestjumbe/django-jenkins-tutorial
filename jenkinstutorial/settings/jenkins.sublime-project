@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/njumbe/Documents/Django/django-jenkins-tutorial"
+		}
+	],
+	"settings": {
+		"python_interpreter": "/Users/njumbe/Documents/virtualevns/jenkinsenv/bin/python"
+	}
+}
