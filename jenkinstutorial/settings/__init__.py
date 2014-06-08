@@ -1,0 +1,1 @@
+from jenkinstutorial.settings.base import *
